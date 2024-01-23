@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+  angular-app:
+    build:
+      context: ../Front
+    ports:
+      - "4200:80"
+
+  spring-boot-app:
+    build:
+      context: ./
+    ports:
+      - "8081:8080"
+    depends_on:
+      - mysql-db
+
+  mysql-db:
+    image: mysql:latest
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+      MYSQL_DATABASE: fly_delivery
+    ports:
+      - "3306:3306"
+    volumes:
+      - ../mysql-data:/var/lib/mysql
