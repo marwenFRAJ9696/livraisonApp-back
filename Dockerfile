@@ -1,12 +1,12 @@
 # Étape 1 : Construction de l'application Spring Boot
-FROM maven:3.5.0-openjdk-11-slim AS builder
+FROM maven:3.6.3-openjdk-11-slim AS builder
 
 WORKDIR /app
 
 COPY pom.xml .
 RUN mvn dependency:go-offline
 
-COPY src ./src# 
+COPY src ./src
 
 RUN mvn clean install -DskipTests
 
