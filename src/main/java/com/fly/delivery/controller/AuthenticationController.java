@@ -11,7 +11,7 @@ import com.fly.delivery.service.AuthenticationService;
 import lombok.RequiredArgsConstructor;
 @RestController
 @RequestMapping("/api/v1/auth")
-@CrossOrigin(origins = {"http://localhost:4200", "http://localhost:4201"}, allowedHeaders = "*")
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 @RequiredArgsConstructor
 public class AuthenticationController {
     private final AuthenticationService authenticationService;
