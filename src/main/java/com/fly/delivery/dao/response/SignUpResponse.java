@@ -23,5 +23,6 @@ public class SignUpResponse {
     private String codePostal;
     private String sexe;
     private double  priceOfDelivery;
+    private String role;
 
 }

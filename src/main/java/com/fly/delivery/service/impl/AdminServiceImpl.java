@@ -38,6 +38,7 @@ public class AdminServiceImpl implements AdminService {
             newUser.setCity(u.getCity());
             newUser.setCodePostal(u.getCodePostal());
             newUser.setPriceOfDelivery(u.getPriceOfDelivery());
+            newUser.setRole(u.getRole().name());
             newUser.setSexe(u.getSexe()!= null ? u.getSexe().name() : null);
             comptes.add(newUser);
         });
@@ -62,6 +63,7 @@ public class AdminServiceImpl implements AdminService {
             newUser.setCity(u.getCity());
             newUser.setCodePostal(u.getCodePostal());
             newUser.setPriceOfDelivery(u.getPriceOfDelivery());
+            newUser.setRole(u.getRole().name());
             newUser.setSexe(u.getSexe()!= null ? u.getSexe().name() : null);
         }
         return newUser;
