@@ -8,12 +8,12 @@ RUN mvn dependency:go-offline
 
 COPY src ./src# 
 
-RUN mvn package -DskipTests
+RUN mvn clean install -DskipTests
 
 #Étape 2 : Exécution de l'application Spring Boot dans une image JRE
 FROM  openjdk:11
 
 EXPOSE 8080
-ADD /target/flyDelivery-0.0.1-SNAPSHOT.jar flyDelivery.jar
+COPY --from=builder /app/target/flyDelivery-0.0.1-SNAPSHOT.jar flyDelivery.jar
 
 ENTRYPOINT ["java", "-jar", "flyDelivery.jar"]
