@@ -5,6 +5,8 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.Date;
+
 @Data
 @Builder
 @NoArgsConstructor
@@ -26,6 +28,8 @@ public class PackageResponse {
     private boolean isPackageCanBeOpen;
     private String comment;
     private String status;
+    private Date createdDate;
+    private String emailUser;
     public void isPackageCanBeOpen(boolean packageCanBeOpen) {
         this.isPackageCanBeOpen = packageCanBeOpen;
     }

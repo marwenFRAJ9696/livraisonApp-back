@@ -37,4 +37,8 @@ public class PackageController {
     public ResponseEntity<StatusResponse> changeStatus(@PathVariable Integer id,@RequestParam("status") String status) {
         return ResponseEntity.ok(packageService.changeStatus(id,status));
     }
+    @GetMapping({"/createdDate"})
+    public ResponseEntity<Collection<PackageResponse>> getAllPackageByCreatedDate() {
+        return ResponseEntity.ok(packageService.getAllPackageByCreatedDate());
+    }
 }

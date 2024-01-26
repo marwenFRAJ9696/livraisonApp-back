@@ -15,9 +15,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Optional;
+import java.util.*;
 
 
 @Service
@@ -54,6 +52,7 @@ public class PackageServiceImpl implements PackageService {
                 .priceNet(request.getPriceNet())
                 .status(Status.NOT_STARTED)
                 .comment(request.getComment())
+                .createdDate(new Date())
                 .user(user).build();
         packageRepository.save(pack);
         message = "Package added successfully!";
@@ -68,30 +67,38 @@ public class PackageServiceImpl implements PackageService {
         if(optionaluser.isPresent()) {
             User user = optionaluser.get();
             Collection<Package> packages = user.getPackages();
-            packages.stream().forEach(p -> {
-                PackageResponse packageResponse = new PackageResponse();
-                packageResponse.setCity(p.getCity());
-                packageResponse.setPackageNumber(p.getPackageNumber());
-                packageResponse.setArticleNumber(p.getArticleNumber());
-                packageResponse.setComment(p.getComment());
-                packageResponse.isPackageCanBeOpen(p.isPackageCanBeOpen());
-                packageResponse.setDesignation(p.getDesignation());
-                packageResponse.setDeliveryType(p.getDeliveryType().name());
-                packageResponse.setFullAddress(p.getFullAddress());
-                packageResponse.setFullName(p.getFullName());
-                packageResponse.setPaymentMode(p.getPaymentMode().name());
-                packageResponse.setGovernorate(p.getGovernorate());
-                packageResponse.setPriceNet(p.getPriceNet());
-                packageResponse.setPriceDelivery(user.getPriceOfDelivery());
-                packageResponse.setTelNumber(user.getTelNumber());
-                packageResponse.setStatus(p.getStatus()!= null ? p.getStatus().name() : null);
-                packageResponse.setId(p.getId());
-                packageResponses.add(packageResponse);
-            });
+            packageResponses.addAll(mapPakcageToResponse(packages));
         }
         return packageResponses;
     }
 
+    Collection<PackageResponse> mapPakcageToResponse(Collection<Package> packages){
+        Collection<PackageResponse> packageResponses = new ArrayList<>();
+
+        packages.stream().forEach(p -> {
+            PackageResponse packageResponse = new PackageResponse();
+            packageResponse.setCity(p.getCity());
+            packageResponse.setPackageNumber(p.getPackageNumber());
+            packageResponse.setArticleNumber(p.getArticleNumber());
+            packageResponse.setComment(p.getComment());
+            packageResponse.isPackageCanBeOpen(p.isPackageCanBeOpen());
+            packageResponse.setDesignation(p.getDesignation());
+            packageResponse.setDeliveryType(p.getDeliveryType().name());
+            packageResponse.setFullAddress(p.getFullAddress());
+            packageResponse.setFullName(p.getFullName());
+            packageResponse.setPaymentMode(p.getPaymentMode().name());
+            packageResponse.setGovernorate(p.getGovernorate());
+            packageResponse.setPriceNet(p.getPriceNet());
+            packageResponse.setPriceDelivery(p.getUser().getPriceOfDelivery());
+            packageResponse.setTelNumber(Long.valueOf(p.getTelNumber()));
+            packageResponse.setStatus(p.getStatus()!= null ? p.getStatus().name() : null);
+            packageResponse.setId(p.getId());
+            packageResponse.setCreatedDate(p.getCreatedDate());
+            packageResponse.setEmailUser(p.getUser().getEmail());
+            packageResponses.add(packageResponse);
+        });
+        return packageResponses;
+    }
     @Override
     public StatusResponse changeStatus(Integer id, String status) {
         Optional<Package> packageOptional = packageRepository.findById(id);
@@ -110,5 +117,14 @@ public class PackageServiceImpl implements PackageService {
             statusResponse.setStatus(aPackage.getStatus().name());
         }
         return statusResponse;
+    }
+
+    @Override
+    public Collection<PackageResponse> getAllPackageByCreatedDate() {
+        List<Package> colis = packageRepository.findAll();
+        colis.stream().sorted(Comparator.comparing(Package::getCreatedDate));
+        Collection<PackageResponse> packageResponses = mapPakcageToResponse(colis);
+
+        return  packageResponses;
     }
 }

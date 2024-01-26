@@ -14,4 +14,6 @@ public interface PackageService {
    Collection<PackageResponse> getPackageByClient(String email);
 
    StatusResponse changeStatus(Integer id,String status);
+
+   Collection<PackageResponse> getAllPackageByCreatedDate();
 }

@@ -11,6 +11,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 
 import javax.persistence.*;
 import java.util.Collection;
+import java.util.Date;
 import java.util.List;
 
 @Data
@@ -38,6 +39,7 @@ public class Package {
     private boolean isPackageCanBeOpen;
     private String comment;
     private Status status;
+    private Date createdDate;
     @ManyToOne
     private User user;
 
