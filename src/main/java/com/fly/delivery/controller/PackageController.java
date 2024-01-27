@@ -17,7 +17,7 @@ import java.util.Collection;
 @RestController
 @RequestMapping("/api/v1/packages")
 @RequiredArgsConstructor
-@CrossOrigin(origins = {"http://localhost:4200", "http://102.211.210.49:4200"}, allowedHeaders = "*")
+@CrossOrigin(origins = {"http://localhost:4200", "http://102.211.210.49:4200","http://www.flydelivery.com.tn:4200"}, allowedHeaders = "*")
 public class PackageController {
     @Autowired
     private AuthenticationService authenticationService;
