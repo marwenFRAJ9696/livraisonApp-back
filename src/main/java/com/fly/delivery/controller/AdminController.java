@@ -15,7 +15,7 @@ import java.util.Collection;
 @RestController
 @RequestMapping("/api/v1/comptes")
 @RequiredArgsConstructor
-@CrossOrigin(origins = {"http://localhost:4200", "http://102.211.210.49:4200","http://www.flydelivery.com.tn:4200"}, allowedHeaders = "*")
+@CrossOrigin(origins = {"http://localhost:4200", "http://102.211.210.49:4200","http://www.flydelivery.com.tn:4200","http://www.flydelivery.com.tn"}, allowedHeaders = "*")
 public class AdminController {
     @Autowired
     private AuthenticationService authenticationService;
