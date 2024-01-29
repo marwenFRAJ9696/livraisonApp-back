@@ -1,0 +1,592 @@
+Jan 23 18:40:31 Zw3KtpGP systemd[1]: Starting Docker Application Container Engine...
+Jan 23 18:40:31 Zw3KtpGP dockerd[2860]: time="2024-01-23T18:40:31.816291367Z" level=info msg="Starting up"
+Jan 23 18:40:31 Zw3KtpGP dockerd[2860]: time="2024-01-23T18:40:31.818657421Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Jan 23 18:40:31 Zw3KtpGP dockerd[2860]: time="2024-01-23T18:40:31.929961048Z" level=info msg="Loading containers: start."
+Jan 23 18:40:32 Zw3KtpGP dockerd[2860]: time="2024-01-23T18:40:32.165444099Z" level=info msg="Loading containers: done."
+Jan 23 18:40:32 Zw3KtpGP dockerd[2860]: time="2024-01-23T18:40:32.185227341Z" level=info msg="Docker daemon" commit=615dfdf containerd-snapshotter=false storage-driver=overlay2 version=25.0.0
+Jan 23 18:40:32 Zw3KtpGP dockerd[2860]: time="2024-01-23T18:40:32.185673523Z" level=info msg="Daemon has completed initialization"
+Jan 23 18:40:32 Zw3KtpGP dockerd[2860]: time="2024-01-23T18:40:32.232190699Z" level=info msg="API listen on /run/docker.sock"
+Jan 23 18:40:32 Zw3KtpGP systemd[1]: Started Docker Application Container Engine.
+Jan 23 18:42:16 Zw3KtpGP dockerd[2860]: time="2024-01-23T18:42:16.150756018Z" level=info msg="ignoring event" container=e8bdd097c415dd38807e4d7980a96ce8aa13d4a91332fa1294f31af5cccba373 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Jan 26 20:45:32 Zw3KtpGP dockerd[2860]: time="2024-01-26T20:45:32.911897990Z" level=error msg="Failed to get event" error="rpc error: code = Unavailable desc = error reading from server: EOF" module=libcontainerd namespace=moby
+Jan 26 20:45:32 Zw3KtpGP dockerd[2860]: time="2024-01-26T20:45:32.960611683Z" level=info msg="Waiting for containerd to be ready to restart event processing" module=libcontainerd namespace=moby
+Jan 26 20:49:34 Zw3KtpGP systemd[1]: Stopping Docker Application Container Engine...
+Jan 26 20:49:34 Zw3KtpGP dockerd[2860]: time="2024-01-26T20:49:34.382550737Z" level=info msg="Processing signal 'terminated'"
+Jan 26 20:49:34 Zw3KtpGP dockerd[2860]: time="2024-01-26T20:49:34.612183804Z" level=info msg="stopping event stream following graceful shutdown" error="<nil>" module=libcontainerd namespace=moby
+Jan 26 20:49:34 Zw3KtpGP dockerd[2860]: time="2024-01-26T20:49:34.646568700Z" level=info msg="Daemon shutdown complete"
+Jan 26 20:49:34 Zw3KtpGP systemd[1]: docker.service: Deactivated successfully.
+Jan 26 20:49:34 Zw3KtpGP systemd[1]: Stopped Docker Application Container Engine.
+Jan 26 20:49:34 Zw3KtpGP systemd[1]: docker.service: Consumed 1min 26.545s CPU time.
+[0;1;39m-- Boot 3607606244814c2aa5262f8226af1456 --[0m
+Jan 26 20:50:06 Zw3KtpGP systemd[1]: Starting Docker Application Container Engine...
+Jan 26 20:50:09 Zw3KtpGP dockerd[782]: time="2024-01-26T20:50:09.335922290Z" level=info msg="Starting up"
+Jan 26 20:50:09 Zw3KtpGP dockerd[782]: time="2024-01-26T20:50:09.341511587Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Jan 26 20:50:10 Zw3KtpGP dockerd[782]: time="2024-01-26T20:50:10.269286843Z" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Jan 26 20:50:10 Zw3KtpGP dockerd[782]: time="2024-01-26T20:50:10.381559094Z" level=info msg="Loading containers: start."
+Jan 26 20:50:11 Zw3KtpGP dockerd[782]: time="2024-01-26T20:50:11.432066923Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Jan 26 20:50:11 Zw3KtpGP dockerd[782]: time="2024-01-26T20:50:11.645315107Z" level=info msg="Loading containers: done."
+Jan 26 20:50:11 Zw3KtpGP dockerd[782]: time="2024-01-26T20:50:11.770966926Z" level=info msg="Docker daemon" commit=615dfdf containerd-snapshotter=false storage-driver=overlay2 version=25.0.0
+Jan 26 20:50:11 Zw3KtpGP dockerd[782]: time="2024-01-26T20:50:11.775306786Z" level=info msg="Daemon has completed initialization"
+Jan 26 20:50:11 Zw3KtpGP dockerd[782]: time="2024-01-26T20:50:11.988030551Z" level=info msg="API listen on /run/docker.sock"
+Jan 26 20:50:11 Zw3KtpGP systemd[1]: Started Docker Application Container Engine.
+Jan 27 09:08:11 Zw3KtpGP systemd[1]: Stopping Docker Application Container Engine...
+Jan 27 09:08:12 Zw3KtpGP dockerd[782]: time="2024-01-27T09:08:11.951419422Z" level=info msg="Processing signal 'terminated'"
+Jan 27 09:08:12 Zw3KtpGP dockerd[782]: time="2024-01-27T09:08:12.261186955Z" level=info msg="Daemon shutdown complete"
+Jan 27 09:08:12 Zw3KtpGP systemd[1]: docker.service: Deactivated successfully.
+Jan 27 09:08:12 Zw3KtpGP systemd[1]: Stopped Docker Application Container Engine.
+Jan 27 09:08:12 Zw3KtpGP systemd[1]: docker.service: Consumed 11.833s CPU time.
+[0;1;39m-- Boot f9fd134303794dd6887aa92ce57dfbdf --[0m
+Jan 27 09:09:18 Zw3KtpGP systemd[1]: Starting Docker Application Container Engine...
+Jan 27 09:09:21 Zw3KtpGP dockerd[784]: time="2024-01-27T09:09:21.318941757Z" level=info msg="Starting up"
+Jan 27 09:09:21 Zw3KtpGP dockerd[784]: time="2024-01-27T09:09:21.339615343Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Jan 27 09:09:22 Zw3KtpGP dockerd[784]: time="2024-01-27T09:09:22.093436144Z" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Jan 27 09:09:22 Zw3KtpGP dockerd[784]: time="2024-01-27T09:09:22.211839720Z" level=info msg="Loading containers: start."
+Jan 27 09:09:23 Zw3KtpGP dockerd[784]: time="2024-01-27T09:09:23.252196294Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Jan 27 09:09:23 Zw3KtpGP dockerd[784]: time="2024-01-27T09:09:23.478098694Z" level=info msg="Loading containers: done."
+Jan 27 09:09:23 Zw3KtpGP dockerd[784]: time="2024-01-27T09:09:23.579583031Z" level=info msg="Docker daemon" commit=615dfdf containerd-snapshotter=false storage-driver=overlay2 version=25.0.0
+Jan 27 09:09:23 Zw3KtpGP dockerd[784]: time="2024-01-27T09:09:23.580171636Z" level=info msg="Daemon has completed initialization"
+Jan 27 09:09:23 Zw3KtpGP dockerd[784]: time="2024-01-27T09:09:23.762506600Z" level=info msg="API listen on /run/docker.sock"
+Jan 27 09:09:23 Zw3KtpGP systemd[1]: Started Docker Application Container Engine.
+Jan 27 09:56:57 Zw3KtpGP dockerd[784]: time="2024-01-27T09:56:57.006785577Z" level=info msg="Processing signal 'terminated'"
+Jan 27 09:56:57 Zw3KtpGP systemd[1]: Stopping Docker Application Container Engine...
+Jan 27 09:56:57 Zw3KtpGP dockerd[784]: time="2024-01-27T09:56:57.057886343Z" level=info msg="Daemon shutdown complete"
+Jan 27 09:56:57 Zw3KtpGP systemd[1]: docker.service: Deactivated successfully.
+Jan 27 09:56:57 Zw3KtpGP systemd[1]: Stopped Docker Application Container Engine.
+Jan 27 09:56:57 Zw3KtpGP systemd[1]: docker.service: Consumed 1.332s CPU time.
+[0;1;39m-- Boot ca81d8e91e2244b8933635cdd5d9a5cb --[0m
+Jan 27 10:00:17 Zw3KtpGP systemd[1]: Starting Docker Application Container Engine...
+Jan 27 10:00:19 Zw3KtpGP dockerd[784]: time="2024-01-27T10:00:19.909182670Z" level=info msg="Starting up"
+Jan 27 10:00:19 Zw3KtpGP dockerd[784]: time="2024-01-27T10:00:19.911897092Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Jan 27 10:00:20 Zw3KtpGP dockerd[784]: time="2024-01-27T10:00:20.777626628Z" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Jan 27 10:00:20 Zw3KtpGP dockerd[784]: time="2024-01-27T10:00:20.849272608Z" level=info msg="Loading containers: start."
+Jan 27 10:00:21 Zw3KtpGP dockerd[784]: time="2024-01-27T10:00:21.895170778Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Jan 27 10:00:22 Zw3KtpGP dockerd[784]: time="2024-01-27T10:00:22.154470453Z" level=info msg="Loading containers: done."
+Jan 27 10:00:22 Zw3KtpGP dockerd[784]: time="2024-01-27T10:00:22.303408653Z" level=info msg="Docker daemon" commit=615dfdf containerd-snapshotter=false storage-driver=overlay2 version=25.0.0
+Jan 27 10:00:22 Zw3KtpGP dockerd[784]: time="2024-01-27T10:00:22.307759565Z" level=info msg="Daemon has completed initialization"
+Jan 27 10:00:22 Zw3KtpGP dockerd[784]: time="2024-01-27T10:00:22.480483955Z" level=info msg="API listen on /run/docker.sock"
+Jan 27 10:00:22 Zw3KtpGP systemd[1]: Started Docker Application Container Engine.
+Jan 27 10:12:53 Zw3KtpGP systemd[1]: Stopping Docker Application Container Engine...
+Jan 27 10:12:53 Zw3KtpGP dockerd[784]: time="2024-01-27T10:12:53.438204803Z" level=info msg="Processing signal 'terminated'"
+Jan 27 10:12:53 Zw3KtpGP dockerd[784]: time="2024-01-27T10:12:53.701080633Z" level=info msg="stopping event stream following graceful shutdown" error="<nil>" module=libcontainerd namespace=moby
+Jan 27 10:12:53 Zw3KtpGP dockerd[784]: time="2024-01-27T10:12:53.809200817Z" level=info msg="Daemon shutdown complete"
+Jan 27 10:12:53 Zw3KtpGP systemd[1]: docker.service: Deactivated successfully.
+Jan 27 10:12:53 Zw3KtpGP systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Boot 692c11e16fc94982b19599cd7db066f0 --[0m
+Jan 27 10:13:59 Zw3KtpGP systemd[1]: Starting Docker Application Container Engine...
+Jan 27 10:14:02 Zw3KtpGP dockerd[785]: time="2024-01-27T10:14:02.336477515Z" level=info msg="Starting up"
+Jan 27 10:14:02 Zw3KtpGP dockerd[785]: time="2024-01-27T10:14:02.356168756Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Jan 27 10:14:03 Zw3KtpGP dockerd[785]: time="2024-01-27T10:14:03.292557210Z" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Jan 27 10:14:03 Zw3KtpGP dockerd[785]: time="2024-01-27T10:14:03.386792436Z" level=info msg="Loading containers: start."
+Jan 27 10:14:04 Zw3KtpGP dockerd[785]: time="2024-01-27T10:14:04.323405146Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Jan 27 10:14:04 Zw3KtpGP dockerd[785]: time="2024-01-27T10:14:04.516083117Z" level=info msg="Loading containers: done."
+Jan 27 10:14:04 Zw3KtpGP dockerd[785]: time="2024-01-27T10:14:04.636734990Z" level=info msg="Docker daemon" commit=615dfdf containerd-snapshotter=false storage-driver=overlay2 version=25.0.0
+Jan 27 10:14:04 Zw3KtpGP dockerd[785]: time="2024-01-27T10:14:04.641135106Z" level=info msg="Daemon has completed initialization"
+Jan 27 10:14:04 Zw3KtpGP dockerd[785]: time="2024-01-27T10:14:04.902417169Z" level=info msg="API listen on /run/docker.sock"
+Jan 27 10:14:04 Zw3KtpGP systemd[1]: Started Docker Application Container Engine.
+Jan 27 10:33:12 Zw3KtpGP systemd[1]: Stopping Docker Application Container Engine...
+Jan 27 10:33:12 Zw3KtpGP dockerd[785]: time="2024-01-27T10:33:12.445824212Z" level=info msg="Processing signal 'terminated'"
+Jan 27 10:33:12 Zw3KtpGP dockerd[785]: time="2024-01-27T10:33:12.767215371Z" level=info msg="stopping event stream following graceful shutdown" error="<nil>" module=libcontainerd namespace=moby
+Jan 27 10:33:12 Zw3KtpGP dockerd[785]: time="2024-01-27T10:33:12.773251031Z" level=info msg="Daemon shutdown complete"
+Jan 27 10:33:12 Zw3KtpGP systemd[1]: docker.service: Deactivated successfully.
+Jan 27 10:33:12 Zw3KtpGP systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Boot 110892ee03214fdc8d22b2a42ced2c3c --[0m
+Jan 27 10:34:23 Zw3KtpGP systemd[1]: Starting Docker Application Container Engine...
+Jan 27 10:34:25 Zw3KtpGP dockerd[785]: time="2024-01-27T10:34:25.519607564Z" level=info msg="Starting up"
+Jan 27 10:34:25 Zw3KtpGP dockerd[785]: time="2024-01-27T10:34:25.523025163Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Jan 27 10:34:26 Zw3KtpGP dockerd[785]: time="2024-01-27T10:34:26.310526153Z" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Jan 27 10:34:26 Zw3KtpGP dockerd[785]: time="2024-01-27T10:34:26.410729454Z" level=info msg="Loading containers: start."
+Jan 27 10:34:27 Zw3KtpGP dockerd[785]: time="2024-01-27T10:34:27.240705485Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Jan 27 10:34:27 Zw3KtpGP dockerd[785]: time="2024-01-27T10:34:27.474630462Z" level=info msg="Loading containers: done."
+Jan 27 10:34:27 Zw3KtpGP dockerd[785]: time="2024-01-27T10:34:27.585137497Z" level=info msg="Docker daemon" commit=615dfdf containerd-snapshotter=false storage-driver=overlay2 version=25.0.0
+Jan 27 10:34:27 Zw3KtpGP dockerd[785]: time="2024-01-27T10:34:27.591349553Z" level=info msg="Daemon has completed initialization"
+Jan 27 10:34:27 Zw3KtpGP dockerd[785]: time="2024-01-27T10:34:27.847532448Z" level=info msg="API listen on /run/docker.sock"
+Jan 27 10:34:27 Zw3KtpGP systemd[1]: Started Docker Application Container Engine.
+Jan 27 10:39:11 Zw3KtpGP systemd[1]: Stopping Docker Application Container Engine...
+Jan 27 10:39:11 Zw3KtpGP dockerd[785]: time="2024-01-27T10:39:11.579644371Z" level=info msg="Processing signal 'terminated'"
+Jan 27 10:39:11 Zw3KtpGP dockerd[785]: time="2024-01-27T10:39:11.939662140Z" level=info msg="Daemon shutdown complete"
+Jan 27 10:39:11 Zw3KtpGP systemd[1]: docker.service: Deactivated successfully.
+Jan 27 10:39:11 Zw3KtpGP systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Boot 4c56522526b54998b0dab8c5c0679021 --[0m
+Jan 27 10:40:17 Zw3KtpGP systemd[1]: Starting Docker Application Container Engine...
+Jan 27 10:40:20 Zw3KtpGP dockerd[793]: time="2024-01-27T10:40:20.172695177Z" level=info msg="Starting up"
+Jan 27 10:40:20 Zw3KtpGP dockerd[793]: time="2024-01-27T10:40:20.185355926Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Jan 27 10:40:20 Zw3KtpGP dockerd[793]: time="2024-01-27T10:40:20.921739997Z" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Jan 27 10:40:21 Zw3KtpGP dockerd[793]: time="2024-01-27T10:40:21.081846143Z" level=info msg="Loading containers: start."
+Jan 27 10:40:22 Zw3KtpGP dockerd[793]: time="2024-01-27T10:40:22.120495735Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Jan 27 10:40:22 Zw3KtpGP dockerd[793]: time="2024-01-27T10:40:22.328477146Z" level=info msg="Loading containers: done."
+Jan 27 10:40:22 Zw3KtpGP dockerd[793]: time="2024-01-27T10:40:22.456947865Z" level=info msg="Docker daemon" commit=615dfdf containerd-snapshotter=false storage-driver=overlay2 version=25.0.0
+Jan 27 10:40:22 Zw3KtpGP dockerd[793]: time="2024-01-27T10:40:22.467836423Z" level=info msg="Daemon has completed initialization"
+Jan 27 10:40:22 Zw3KtpGP dockerd[793]: time="2024-01-27T10:40:22.718374471Z" level=info msg="API listen on /run/docker.sock"
+Jan 27 10:40:22 Zw3KtpGP systemd[1]: Started Docker Application Container Engine.
+Jan 27 10:47:34 Zw3KtpGP systemd[1]: Stopping Docker Application Container Engine...
+Jan 27 10:47:34 Zw3KtpGP dockerd[793]: time="2024-01-27T10:47:34.358028156Z" level=info msg="Processing signal 'terminated'"
+Jan 27 10:47:34 Zw3KtpGP dockerd[793]: time="2024-01-27T10:47:34.649838379Z" level=info msg="Daemon shutdown complete"
+Jan 27 10:47:34 Zw3KtpGP systemd[1]: docker.service: Deactivated successfully.
+Jan 27 10:47:34 Zw3KtpGP systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Boot d5297e61a1064703bff1ccd9b919d172 --[0m
+Jan 27 10:48:41 Zw3KtpGP systemd[1]: Starting Docker Application Container Engine...
+Jan 27 10:48:44 Zw3KtpGP dockerd[786]: time="2024-01-27T10:48:44.692201421Z" level=info msg="Starting up"
+Jan 27 10:48:44 Zw3KtpGP dockerd[786]: time="2024-01-27T10:48:44.743507081Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Jan 27 10:48:45 Zw3KtpGP dockerd[786]: time="2024-01-27T10:48:45.663237818Z" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Jan 27 10:48:45 Zw3KtpGP dockerd[786]: time="2024-01-27T10:48:45.773730632Z" level=info msg="Loading containers: start."
+Jan 27 10:48:46 Zw3KtpGP dockerd[786]: time="2024-01-27T10:48:46.684504213Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Jan 27 10:48:46 Zw3KtpGP dockerd[786]: time="2024-01-27T10:48:46.857802831Z" level=info msg="Loading containers: done."
+Jan 27 10:48:47 Zw3KtpGP dockerd[786]: time="2024-01-27T10:48:47.001760470Z" level=info msg="Docker daemon" commit=615dfdf containerd-snapshotter=false storage-driver=overlay2 version=25.0.0
+Jan 27 10:48:47 Zw3KtpGP dockerd[786]: time="2024-01-27T10:48:47.005932698Z" level=info msg="Daemon has completed initialization"
+Jan 27 10:48:47 Zw3KtpGP dockerd[786]: time="2024-01-27T10:48:47.274890702Z" level=info msg="API listen on /run/docker.sock"
+Jan 27 10:48:47 Zw3KtpGP systemd[1]: Started Docker Application Container Engine.
+Jan 27 11:48:11 Zw3KtpGP systemd[1]: Stopping Docker Application Container Engine...
+Jan 27 11:48:11 Zw3KtpGP dockerd[786]: time="2024-01-27T11:48:11.286398308Z" level=info msg="Processing signal 'terminated'"
+Jan 27 11:48:11 Zw3KtpGP dockerd[786]: time="2024-01-27T11:48:11.531414524Z" level=info msg="Daemon shutdown complete"
+Jan 27 11:48:11 Zw3KtpGP systemd[1]: docker.service: Deactivated successfully.
+Jan 27 11:48:11 Zw3KtpGP systemd[1]: Stopped Docker Application Container Engine.
+Jan 27 11:48:11 Zw3KtpGP systemd[1]: docker.service: Consumed 1.395s CPU time.
+[0;1;39m-- Boot 858ad2ade58747929ae4f38fb0598b0d --[0m
+Jan 27 11:50:24 Zw3KtpGP systemd[1]: Starting Docker Application Container Engine...
+Jan 27 11:50:27 Zw3KtpGP dockerd[786]: time="2024-01-27T11:50:27.416073093Z" level=info msg="Starting up"
+Jan 27 11:50:27 Zw3KtpGP dockerd[786]: time="2024-01-27T11:50:27.422080039Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Jan 27 11:50:28 Zw3KtpGP dockerd[786]: time="2024-01-27T11:50:28.280382888Z" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Jan 27 11:50:28 Zw3KtpGP dockerd[786]: time="2024-01-27T11:50:28.370786058Z" level=info msg="Loading containers: start."
+Jan 27 11:50:29 Zw3KtpGP dockerd[786]: time="2024-01-27T11:50:29.586346240Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Jan 27 11:50:29 Zw3KtpGP dockerd[786]: time="2024-01-27T11:50:29.830903290Z" level=info msg="Loading containers: done."
+Jan 27 11:50:29 Zw3KtpGP dockerd[786]: time="2024-01-27T11:50:29.994890970Z" level=info msg="Docker daemon" commit=615dfdf containerd-snapshotter=false storage-driver=overlay2 version=25.0.0
+Jan 27 11:50:29 Zw3KtpGP dockerd[786]: time="2024-01-27T11:50:29.995723230Z" level=info msg="Daemon has completed initialization"
+Jan 27 11:50:30 Zw3KtpGP dockerd[786]: time="2024-01-27T11:50:30.252427842Z" level=info msg="API listen on /run/docker.sock"
+Jan 27 11:50:30 Zw3KtpGP systemd[1]: Started Docker Application Container Engine.
+Jan 27 12:06:48 Zw3KtpGP systemd[1]: Stopping Docker Application Container Engine...
+Jan 27 12:06:48 Zw3KtpGP dockerd[786]: time="2024-01-27T12:06:48.392894303Z" level=info msg="Processing signal 'terminated'"
+Jan 27 12:06:48 Zw3KtpGP dockerd[786]: time="2024-01-27T12:06:48.663552222Z" level=info msg="stopping event stream following graceful shutdown" error="<nil>" module=libcontainerd namespace=moby
+Jan 27 12:06:48 Zw3KtpGP dockerd[786]: time="2024-01-27T12:06:48.683389591Z" level=info msg="Daemon shutdown complete"
+Jan 27 12:06:48 Zw3KtpGP systemd[1]: docker.service: Deactivated successfully.
+Jan 27 12:06:48 Zw3KtpGP systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Boot 50a670d08e094e8cbf996cc7cba7009f --[0m
+Jan 27 12:08:02 Zw3KtpGP systemd[1]: Starting Docker Application Container Engine...
+Jan 27 12:08:05 Zw3KtpGP dockerd[781]: time="2024-01-27T12:08:05.400340683Z" level=info msg="Starting up"
+Jan 27 12:08:05 Zw3KtpGP dockerd[781]: time="2024-01-27T12:08:05.411147981Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Jan 27 12:08:06 Zw3KtpGP dockerd[781]: time="2024-01-27T12:08:06.179854973Z" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Jan 27 12:08:06 Zw3KtpGP dockerd[781]: time="2024-01-27T12:08:06.274008555Z" level=info msg="Loading containers: start."
+Jan 27 12:08:07 Zw3KtpGP dockerd[781]: time="2024-01-27T12:08:07.269292607Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Jan 27 12:08:07 Zw3KtpGP dockerd[781]: time="2024-01-27T12:08:07.487671126Z" level=info msg="Loading containers: done."
+Jan 27 12:08:07 Zw3KtpGP dockerd[781]: time="2024-01-27T12:08:07.576565589Z" level=info msg="Docker daemon" commit=615dfdf containerd-snapshotter=false storage-driver=overlay2 version=25.0.0
+Jan 27 12:08:07 Zw3KtpGP dockerd[781]: time="2024-01-27T12:08:07.579313243Z" level=info msg="Daemon has completed initialization"
+Jan 27 12:08:07 Zw3KtpGP dockerd[781]: time="2024-01-27T12:08:07.712999874Z" level=info msg="API listen on /run/docker.sock"
+Jan 27 12:08:07 Zw3KtpGP systemd[1]: Started Docker Application Container Engine.
+Jan 27 12:18:09 Zw3KtpGP systemd[1]: Stopping Docker Application Container Engine...
+Jan 27 12:18:09 Zw3KtpGP dockerd[781]: time="2024-01-27T12:18:09.388594461Z" level=info msg="Processing signal 'terminated'"
+Jan 27 12:18:09 Zw3KtpGP dockerd[781]: time="2024-01-27T12:18:09.715661127Z" level=info msg="stopping event stream following graceful shutdown" error="<nil>" module=libcontainerd namespace=moby
+Jan 27 12:18:09 Zw3KtpGP dockerd[781]: time="2024-01-27T12:18:09.720351960Z" level=info msg="Daemon shutdown complete"
+Jan 27 12:18:09 Zw3KtpGP systemd[1]: docker.service: Deactivated successfully.
+Jan 27 12:18:09 Zw3KtpGP systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Boot ae874fdd13364f169ec570329fdec6a0 --[0m
+Jan 27 12:21:51 Zw3KtpGP systemd[1]: Starting Docker Application Container Engine...
+Jan 27 12:21:53 Zw3KtpGP dockerd[783]: time="2024-01-27T12:21:53.764164312Z" level=info msg="Starting up"
+Jan 27 12:21:53 Zw3KtpGP dockerd[783]: time="2024-01-27T12:21:53.775405982Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Jan 27 12:21:54 Zw3KtpGP dockerd[783]: time="2024-01-27T12:21:54.700718967Z" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Jan 27 12:21:54 Zw3KtpGP dockerd[783]: time="2024-01-27T12:21:54.789004262Z" level=info msg="Loading containers: start."
+Jan 27 12:21:55 Zw3KtpGP dockerd[783]: time="2024-01-27T12:21:55.792542990Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Jan 27 12:21:56 Zw3KtpGP dockerd[783]: time="2024-01-27T12:21:56.015984476Z" level=info msg="Loading containers: done."
+Jan 27 12:21:56 Zw3KtpGP dockerd[783]: time="2024-01-27T12:21:56.223861950Z" level=info msg="Docker daemon" commit=615dfdf containerd-snapshotter=false storage-driver=overlay2 version=25.0.0
+Jan 27 12:21:56 Zw3KtpGP dockerd[783]: time="2024-01-27T12:21:56.233692191Z" level=info msg="Daemon has completed initialization"
+Jan 27 12:21:56 Zw3KtpGP dockerd[783]: time="2024-01-27T12:21:56.417590802Z" level=info msg="API listen on /run/docker.sock"
+Jan 27 12:21:56 Zw3KtpGP systemd[1]: Started Docker Application Container Engine.
+Jan 27 13:11:08 Zw3KtpGP systemd[1]: Stopping Docker Application Container Engine...
+Jan 27 13:11:08 Zw3KtpGP dockerd[783]: time="2024-01-27T13:11:08.875882025Z" level=info msg="Processing signal 'terminated'"
+Jan 27 13:11:09 Zw3KtpGP dockerd[783]: time="2024-01-27T13:11:09.140556828Z" level=info msg="stopping event stream following graceful shutdown" error="<nil>" module=libcontainerd namespace=moby
+Jan 27 13:11:09 Zw3KtpGP dockerd[783]: time="2024-01-27T13:11:09.157865739Z" level=info msg="Daemon shutdown complete"
+Jan 27 13:11:09 Zw3KtpGP systemd[1]: docker.service: Deactivated successfully.
+Jan 27 13:11:09 Zw3KtpGP systemd[1]: Stopped Docker Application Container Engine.
+Jan 27 13:11:09 Zw3KtpGP systemd[1]: docker.service: Consumed 1.376s CPU time.
+[0;1;39m-- Boot ca2b9ae1849e421994872b5fc9895132 --[0m
+Jan 27 13:12:17 Zw3KtpGP systemd[1]: Starting Docker Application Container Engine...
+Jan 27 13:12:20 Zw3KtpGP dockerd[785]: time="2024-01-27T13:12:20.302749987Z" level=info msg="Starting up"
+Jan 27 13:12:20 Zw3KtpGP dockerd[785]: time="2024-01-27T13:12:20.311119430Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Jan 27 13:12:21 Zw3KtpGP dockerd[785]: time="2024-01-27T13:12:21.187044904Z" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Jan 27 13:12:21 Zw3KtpGP dockerd[785]: time="2024-01-27T13:12:21.382687694Z" level=info msg="Loading containers: start."
+Jan 27 13:12:22 Zw3KtpGP dockerd[785]: time="2024-01-27T13:12:22.597149841Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Jan 27 13:12:22 Zw3KtpGP dockerd[785]: time="2024-01-27T13:12:22.812289339Z" level=info msg="Loading containers: done."
+Jan 27 13:12:22 Zw3KtpGP dockerd[785]: time="2024-01-27T13:12:22.934401164Z" level=info msg="Docker daemon" commit=615dfdf containerd-snapshotter=false storage-driver=overlay2 version=25.0.0
+Jan 27 13:12:22 Zw3KtpGP dockerd[785]: time="2024-01-27T13:12:22.961381762Z" level=info msg="Daemon has completed initialization"
+Jan 27 13:12:23 Zw3KtpGP dockerd[785]: time="2024-01-27T13:12:23.184624345Z" level=info msg="API listen on /run/docker.sock"
+Jan 27 13:12:23 Zw3KtpGP systemd[1]: Started Docker Application Container Engine.
+Jan 27 13:36:07 Zw3KtpGP systemd[1]: Stopping Docker Application Container Engine...
+Jan 27 13:36:07 Zw3KtpGP dockerd[785]: time="2024-01-27T13:36:07.165961371Z" level=info msg="Processing signal 'terminated'"
+Jan 27 13:36:07 Zw3KtpGP dockerd[785]: time="2024-01-27T13:36:07.544694465Z" level=info msg="stopping event stream following graceful shutdown" error="<nil>" module=libcontainerd namespace=moby
+Jan 27 13:36:07 Zw3KtpGP dockerd[785]: time="2024-01-27T13:36:07.544838709Z" level=info msg="Daemon shutdown complete"
+Jan 27 13:36:07 Zw3KtpGP systemd[1]: docker.service: Deactivated successfully.
+Jan 27 13:36:07 Zw3KtpGP systemd[1]: Stopped Docker Application Container Engine.
+Jan 27 13:36:07 Zw3KtpGP systemd[1]: docker.service: Consumed 2.821s CPU time.
+[0;1;39m-- Boot 25efced938a64131a8de9e769e4b72e7 --[0m
+Jan 27 13:37:49 Zw3KtpGP systemd[1]: Starting Docker Application Container Engine...
+Jan 27 13:37:52 Zw3KtpGP dockerd[782]: time="2024-01-27T13:37:52.200226611Z" level=info msg="Starting up"
+Jan 27 13:37:52 Zw3KtpGP dockerd[782]: time="2024-01-27T13:37:52.219543689Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Jan 27 13:37:53 Zw3KtpGP dockerd[782]: time="2024-01-27T13:37:53.084897786Z" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Jan 27 13:37:53 Zw3KtpGP dockerd[782]: time="2024-01-27T13:37:53.211566015Z" level=info msg="Loading containers: start."
+Jan 27 13:37:54 Zw3KtpGP dockerd[782]: time="2024-01-27T13:37:54.595377682Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Jan 27 13:37:54 Zw3KtpGP dockerd[782]: time="2024-01-27T13:37:54.812835829Z" level=info msg="Loading containers: done."
+Jan 27 13:37:54 Zw3KtpGP dockerd[782]: time="2024-01-27T13:37:54.931900376Z" level=info msg="Docker daemon" commit=615dfdf containerd-snapshotter=false storage-driver=overlay2 version=25.0.0
+Jan 27 13:37:54 Zw3KtpGP dockerd[782]: time="2024-01-27T13:37:54.936208496Z" level=info msg="Daemon has completed initialization"
+Jan 27 13:37:55 Zw3KtpGP dockerd[782]: time="2024-01-27T13:37:55.232635364Z" level=info msg="API listen on /run/docker.sock"
+Jan 27 13:37:55 Zw3KtpGP systemd[1]: Started Docker Application Container Engine.
+Jan 27 13:41:38 Zw3KtpGP systemd[1]: Stopping Docker Application Container Engine...
+Jan 27 13:41:38 Zw3KtpGP dockerd[782]: time="2024-01-27T13:41:38.108501764Z" level=info msg="Processing signal 'terminated'"
+Jan 27 13:41:38 Zw3KtpGP dockerd[782]: time="2024-01-27T13:41:38.123427262Z" level=info msg="Daemon shutdown complete"
+Jan 27 13:41:38 Zw3KtpGP systemd[1]: docker.service: Deactivated successfully.
+Jan 27 13:41:38 Zw3KtpGP systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Boot ff30474f1dd64c31804d81370c79863e --[0m
+Jan 27 13:42:54 Zw3KtpGP systemd[1]: Starting Docker Application Container Engine...
+Jan 27 13:42:56 Zw3KtpGP dockerd[789]: time="2024-01-27T13:42:56.859802536Z" level=info msg="Starting up"
+Jan 27 13:42:56 Zw3KtpGP dockerd[789]: time="2024-01-27T13:42:56.882257533Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Jan 27 13:42:58 Zw3KtpGP dockerd[789]: time="2024-01-27T13:42:58.277439427Z" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Jan 27 13:42:58 Zw3KtpGP dockerd[789]: time="2024-01-27T13:42:58.331053475Z" level=info msg="Loading containers: start."
+Jan 27 13:42:59 Zw3KtpGP dockerd[789]: time="2024-01-27T13:42:59.692989148Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Jan 27 13:42:59 Zw3KtpGP dockerd[789]: time="2024-01-27T13:42:59.922999957Z" level=info msg="Loading containers: done."
+Jan 27 13:43:00 Zw3KtpGP dockerd[789]: time="2024-01-27T13:43:00.027405532Z" level=info msg="Docker daemon" commit=615dfdf containerd-snapshotter=false storage-driver=overlay2 version=25.0.0
+Jan 27 13:43:00 Zw3KtpGP dockerd[789]: time="2024-01-27T13:43:00.028262819Z" level=info msg="Daemon has completed initialization"
+Jan 27 13:43:00 Zw3KtpGP dockerd[789]: time="2024-01-27T13:43:00.221579162Z" level=info msg="API listen on /run/docker.sock"
+Jan 27 13:43:00 Zw3KtpGP systemd[1]: Started Docker Application Container Engine.
+Jan 27 13:53:03 Zw3KtpGP dockerd[789]: time="2024-01-27T13:53:03.362458413Z" level=info msg="Processing signal 'terminated'"
+Jan 27 13:53:03 Zw3KtpGP systemd[1]: Stopping Docker Application Container Engine...
+Jan 27 13:53:03 Zw3KtpGP dockerd[789]: time="2024-01-27T13:53:03.372887934Z" level=info msg="Daemon shutdown complete"
+Jan 27 13:53:03 Zw3KtpGP systemd[1]: docker.service: Deactivated successfully.
+Jan 27 13:53:03 Zw3KtpGP systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Boot 1099e3684a5a458893e7c377ea03b667 --[0m
+Jan 27 13:53:56 Zw3KtpGP systemd[1]: Starting Docker Application Container Engine...
+Jan 27 13:54:00 Zw3KtpGP dockerd[780]: time="2024-01-27T13:54:00.164440591Z" level=info msg="Starting up"
+Jan 27 13:54:00 Zw3KtpGP dockerd[780]: time="2024-01-27T13:54:00.200330250Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Jan 27 13:54:01 Zw3KtpGP dockerd[780]: time="2024-01-27T13:54:01.547105732Z" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Jan 27 13:54:01 Zw3KtpGP dockerd[780]: time="2024-01-27T13:54:01.691308242Z" level=info msg="Loading containers: start."
+Jan 27 13:54:03 Zw3KtpGP dockerd[780]: time="2024-01-27T13:54:03.114062071Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Jan 27 13:54:03 Zw3KtpGP dockerd[780]: time="2024-01-27T13:54:03.353408369Z" level=info msg="Loading containers: done."
+Jan 27 13:54:03 Zw3KtpGP dockerd[780]: time="2024-01-27T13:54:03.530861390Z" level=info msg="Docker daemon" commit=615dfdf containerd-snapshotter=false storage-driver=overlay2 version=25.0.0
+Jan 27 13:54:03 Zw3KtpGP dockerd[780]: time="2024-01-27T13:54:03.537068843Z" level=info msg="Daemon has completed initialization"
+Jan 27 13:54:03 Zw3KtpGP dockerd[780]: time="2024-01-27T13:54:03.776016730Z" level=info msg="API listen on /run/docker.sock"
+Jan 27 13:54:03 Zw3KtpGP systemd[1]: Started Docker Application Container Engine.
+Jan 27 13:58:21 Zw3KtpGP systemd[1]: Stopping Docker Application Container Engine...
+Jan 27 13:58:21 Zw3KtpGP dockerd[780]: time="2024-01-27T13:58:21.213852565Z" level=info msg="Processing signal 'terminated'"
+Jan 27 13:58:21 Zw3KtpGP dockerd[780]: time="2024-01-27T13:58:21.460597633Z" level=info msg="Daemon shutdown complete"
+Jan 27 13:58:21 Zw3KtpGP systemd[1]: docker.service: Deactivated successfully.
+Jan 27 13:58:21 Zw3KtpGP systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Boot f5f6b0dfe3614340a7200b889b7d5957 --[0m
+Jan 27 13:59:15 Zw3KtpGP systemd[1]: Starting Docker Application Container Engine...
+Jan 27 13:59:18 Zw3KtpGP dockerd[786]: time="2024-01-27T13:59:18.232015703Z" level=info msg="Starting up"
+Jan 27 13:59:18 Zw3KtpGP dockerd[786]: time="2024-01-27T13:59:18.236540152Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Jan 27 13:59:18 Zw3KtpGP dockerd[786]: time="2024-01-27T13:59:18.951349180Z" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Jan 27 13:59:19 Zw3KtpGP dockerd[786]: time="2024-01-27T13:59:19.051125813Z" level=info msg="Loading containers: start."
+Jan 27 13:59:20 Zw3KtpGP dockerd[786]: time="2024-01-27T13:59:20.380431433Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Jan 27 13:59:20 Zw3KtpGP dockerd[786]: time="2024-01-27T13:59:20.653461185Z" level=info msg="Loading containers: done."
+Jan 27 13:59:20 Zw3KtpGP dockerd[786]: time="2024-01-27T13:59:20.801702336Z" level=info msg="Docker daemon" commit=615dfdf containerd-snapshotter=false storage-driver=overlay2 version=25.0.0
+Jan 27 13:59:20 Zw3KtpGP dockerd[786]: time="2024-01-27T13:59:20.806191138Z" level=info msg="Daemon has completed initialization"
+Jan 27 13:59:21 Zw3KtpGP dockerd[786]: time="2024-01-27T13:59:21.023752071Z" level=info msg="API listen on /run/docker.sock"
+Jan 27 13:59:21 Zw3KtpGP systemd[1]: Started Docker Application Container Engine.
+Jan 27 14:51:20 Zw3KtpGP systemd[1]: Stopping Docker Application Container Engine...
+Jan 27 14:51:20 Zw3KtpGP dockerd[786]: time="2024-01-27T14:51:20.586828430Z" level=info msg="Processing signal 'terminated'"
+Jan 27 14:51:20 Zw3KtpGP dockerd[786]: time="2024-01-27T14:51:20.627722760Z" level=info msg="Daemon shutdown complete"
+Jan 27 14:51:20 Zw3KtpGP systemd[1]: docker.service: Deactivated successfully.
+Jan 27 14:51:20 Zw3KtpGP systemd[1]: Stopped Docker Application Container Engine.
+Jan 27 14:51:20 Zw3KtpGP systemd[1]: docker.service: Consumed 1.529s CPU time.
+[0;1;39m-- Boot 5ab68b3c765641b7b31edf0820135f02 --[0m
+Jan 27 14:52:14 Zw3KtpGP systemd[1]: Starting Docker Application Container Engine...
+Jan 27 14:52:16 Zw3KtpGP dockerd[780]: time="2024-01-27T14:52:16.704601487Z" level=info msg="Starting up"
+Jan 27 14:52:16 Zw3KtpGP dockerd[780]: time="2024-01-27T14:52:16.708413968Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Jan 27 14:52:17 Zw3KtpGP dockerd[780]: time="2024-01-27T14:52:17.625007827Z" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Jan 27 14:52:17 Zw3KtpGP dockerd[780]: time="2024-01-27T14:52:17.719076647Z" level=info msg="Loading containers: start."
+Jan 27 14:52:19 Zw3KtpGP dockerd[780]: time="2024-01-27T14:52:19.121841434Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Jan 27 14:52:19 Zw3KtpGP dockerd[780]: time="2024-01-27T14:52:19.409962574Z" level=info msg="Loading containers: done."
+Jan 27 14:52:19 Zw3KtpGP dockerd[780]: time="2024-01-27T14:52:19.553600281Z" level=info msg="Docker daemon" commit=615dfdf containerd-snapshotter=false storage-driver=overlay2 version=25.0.0
+Jan 27 14:52:19 Zw3KtpGP dockerd[780]: time="2024-01-27T14:52:19.554950521Z" level=info msg="Daemon has completed initialization"
+Jan 27 14:52:19 Zw3KtpGP dockerd[780]: time="2024-01-27T14:52:19.678876930Z" level=info msg="API listen on /run/docker.sock"
+Jan 27 14:52:19 Zw3KtpGP systemd[1]: Started Docker Application Container Engine.
+Jan 27 15:20:07 Zw3KtpGP systemd[1]: Stopping Docker Application Container Engine...
+Jan 27 15:20:07 Zw3KtpGP dockerd[780]: time="2024-01-27T15:20:07.018235081Z" level=info msg="Processing signal 'terminated'"
+Jan 27 15:20:07 Zw3KtpGP dockerd[780]: time="2024-01-27T15:20:07.259469545Z" level=info msg="stopping event stream following graceful shutdown" error="<nil>" module=libcontainerd namespace=moby
+Jan 27 15:20:07 Zw3KtpGP dockerd[780]: time="2024-01-27T15:20:07.297196250Z" level=info msg="Daemon shutdown complete"
+Jan 27 15:20:07 Zw3KtpGP systemd[1]: docker.service: Deactivated successfully.
+Jan 27 15:20:07 Zw3KtpGP systemd[1]: Stopped Docker Application Container Engine.
+Jan 27 15:20:07 Zw3KtpGP systemd[1]: docker.service: Consumed 1.159s CPU time.
+Jan 27 15:20:07 Zw3KtpGP systemd[1]: Starting Docker Application Container Engine...
+Jan 27 15:20:08 Zw3KtpGP dockerd[3090]: time="2024-01-27T15:20:08.515048322Z" level=info msg="Starting up"
+Jan 27 15:20:08 Zw3KtpGP dockerd[3090]: time="2024-01-27T15:20:08.520618290Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Jan 27 15:20:08 Zw3KtpGP dockerd[3090]: time="2024-01-27T15:20:08.858415232Z" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Jan 27 15:20:08 Zw3KtpGP dockerd[3090]: time="2024-01-27T15:20:08.861741055Z" level=info msg="Loading containers: start."
+Jan 27 15:20:09 Zw3KtpGP dockerd[3090]: time="2024-01-27T15:20:09.058685948Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Jan 27 15:20:09 Zw3KtpGP dockerd[3090]: time="2024-01-27T15:20:09.102095471Z" level=info msg="Loading containers: done."
+Jan 27 15:20:09 Zw3KtpGP dockerd[3090]: time="2024-01-27T15:20:09.126631749Z" level=info msg="Docker daemon" commit=615dfdf containerd-snapshotter=false storage-driver=overlay2 version=25.0.0
+Jan 27 15:20:09 Zw3KtpGP dockerd[3090]: time="2024-01-27T15:20:09.127323697Z" level=info msg="Daemon has completed initialization"
+Jan 27 15:20:09 Zw3KtpGP dockerd[3090]: time="2024-01-27T15:20:09.194260690Z" level=info msg="API listen on /run/docker.sock"
+Jan 27 15:20:09 Zw3KtpGP systemd[1]: Started Docker Application Container Engine.
+Jan 27 15:20:29 Zw3KtpGP dockerd[3090]: time="2024-01-27T15:20:29.597518660Z" level=info msg="Processing signal 'terminated'"
+Jan 27 15:20:29 Zw3KtpGP dockerd[3090]: time="2024-01-27T15:20:29.600689423Z" level=info msg="Daemon shutdown complete"
+Jan 27 15:20:29 Zw3KtpGP systemd[1]: Stopping Docker Application Container Engine...
+Jan 27 15:20:29 Zw3KtpGP systemd[1]: docker.service: Deactivated successfully.
+Jan 27 15:20:29 Zw3KtpGP systemd[1]: Stopped Docker Application Container Engine.
+Jan 27 15:20:29 Zw3KtpGP systemd[1]: Starting Docker Application Container Engine...
+Jan 27 15:20:29 Zw3KtpGP dockerd[3284]: time="2024-01-27T15:20:29.688608430Z" level=info msg="Starting up"
+Jan 27 15:20:29 Zw3KtpGP dockerd[3284]: time="2024-01-27T15:20:29.690331964Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Jan 27 15:20:29 Zw3KtpGP dockerd[3284]: time="2024-01-27T15:20:29.749920905Z" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Jan 27 15:20:29 Zw3KtpGP dockerd[3284]: time="2024-01-27T15:20:29.750894063Z" level=info msg="Loading containers: start."
+Jan 27 15:20:29 Zw3KtpGP dockerd[3284]: time="2024-01-27T15:20:29.917340157Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Jan 27 15:20:29 Zw3KtpGP dockerd[3284]: time="2024-01-27T15:20:29.959246772Z" level=info msg="Loading containers: done."
+Jan 27 15:20:29 Zw3KtpGP dockerd[3284]: time="2024-01-27T15:20:29.977441689Z" level=info msg="Docker daemon" commit=615dfdf containerd-snapshotter=false storage-driver=overlay2 version=25.0.0
+Jan 27 15:20:29 Zw3KtpGP dockerd[3284]: time="2024-01-27T15:20:29.977773441Z" level=info msg="Daemon has completed initialization"
+Jan 27 15:20:30 Zw3KtpGP dockerd[3284]: time="2024-01-27T15:20:30.009640085Z" level=info msg="API listen on /run/docker.sock"
+Jan 27 15:20:30 Zw3KtpGP systemd[1]: Started Docker Application Container Engine.
+Jan 27 15:22:35 Zw3KtpGP systemd[1]: Stopping Docker Application Container Engine...
+Jan 27 15:22:35 Zw3KtpGP dockerd[3284]: time="2024-01-27T15:22:35.116452620Z" level=info msg="Processing signal 'terminated'"
+Jan 27 15:22:35 Zw3KtpGP dockerd[3284]: time="2024-01-27T15:22:35.134979571Z" level=info msg="Daemon shutdown complete"
+Jan 27 15:22:35 Zw3KtpGP systemd[1]: docker.service: Deactivated successfully.
+Jan 27 15:22:35 Zw3KtpGP systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Boot 8603619c9f3c455a9e6971086ce78d37 --[0m
+Jan 27 15:23:30 Zw3KtpGP systemd[1]: Starting Docker Application Container Engine...
+Jan 27 15:23:32 Zw3KtpGP dockerd[779]: time="2024-01-27T15:23:32.723345296Z" level=info msg="Starting up"
+Jan 27 15:23:32 Zw3KtpGP dockerd[779]: time="2024-01-27T15:23:32.730297558Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Jan 27 15:23:33 Zw3KtpGP dockerd[779]: time="2024-01-27T15:23:33.520995191Z" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Jan 27 15:23:33 Zw3KtpGP dockerd[779]: time="2024-01-27T15:23:33.602324510Z" level=info msg="Loading containers: start."
+Jan 27 15:23:34 Zw3KtpGP dockerd[779]: time="2024-01-27T15:23:34.854001310Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Jan 27 15:23:35 Zw3KtpGP dockerd[779]: time="2024-01-27T15:23:35.124157651Z" level=info msg="Loading containers: done."
+Jan 27 15:23:35 Zw3KtpGP dockerd[779]: time="2024-01-27T15:23:35.302188855Z" level=info msg="Docker daemon" commit=615dfdf containerd-snapshotter=false storage-driver=overlay2 version=25.0.0
+Jan 27 15:23:35 Zw3KtpGP dockerd[779]: time="2024-01-27T15:23:35.309451106Z" level=info msg="Daemon has completed initialization"
+Jan 27 15:23:35 Zw3KtpGP dockerd[779]: time="2024-01-27T15:23:35.621275968Z" level=info msg="API listen on /run/docker.sock"
+Jan 27 15:23:35 Zw3KtpGP systemd[1]: Started Docker Application Container Engine.
+Jan 27 15:44:17 Zw3KtpGP dockerd[779]: time="2024-01-27T15:44:17.263079280Z" level=info msg="Processing signal 'terminated'"
+Jan 27 15:44:17 Zw3KtpGP systemd[1]: Stopping Docker Application Container Engine...
+Jan 27 15:44:17 Zw3KtpGP dockerd[779]: time="2024-01-27T15:44:17.280246822Z" level=info msg="Daemon shutdown complete"
+Jan 27 15:44:17 Zw3KtpGP systemd[1]: docker.service: Deactivated successfully.
+Jan 27 15:44:17 Zw3KtpGP systemd[1]: Stopped Docker Application Container Engine.
+Jan 27 15:44:17 Zw3KtpGP systemd[1]: docker.service: Consumed 1.071s CPU time.
+[0;1;39m-- Boot 5c5d6f59efae484399121c41ef63316d --[0m
+Jan 27 15:45:11 Zw3KtpGP systemd[1]: Starting Docker Application Container Engine...
+Jan 27 15:45:14 Zw3KtpGP dockerd[779]: time="2024-01-27T15:45:14.273881813Z" level=info msg="Starting up"
+Jan 27 15:45:14 Zw3KtpGP dockerd[779]: time="2024-01-27T15:45:14.302416766Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Jan 27 15:45:15 Zw3KtpGP dockerd[779]: time="2024-01-27T15:45:15.059482123Z" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Jan 27 15:45:15 Zw3KtpGP dockerd[779]: time="2024-01-27T15:45:15.158832544Z" level=info msg="Loading containers: start."
+Jan 27 15:45:16 Zw3KtpGP dockerd[779]: time="2024-01-27T15:45:16.643794770Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Jan 27 15:45:16 Zw3KtpGP dockerd[779]: time="2024-01-27T15:45:16.873917058Z" level=info msg="Loading containers: done."
+Jan 27 15:45:16 Zw3KtpGP dockerd[779]: time="2024-01-27T15:45:16.972134181Z" level=info msg="Docker daemon" commit=615dfdf containerd-snapshotter=false storage-driver=overlay2 version=25.0.0
+Jan 27 15:45:16 Zw3KtpGP dockerd[779]: time="2024-01-27T15:45:16.976749274Z" level=info msg="Daemon has completed initialization"
+Jan 27 15:45:17 Zw3KtpGP dockerd[779]: time="2024-01-27T15:45:17.264759490Z" level=info msg="API listen on /run/docker.sock"
+Jan 27 15:45:17 Zw3KtpGP systemd[1]: Started Docker Application Container Engine.
+Jan 27 15:51:55 Zw3KtpGP dockerd[779]: time="2024-01-27T15:51:55.403049682Z" level=info msg="Processing signal 'terminated'"
+Jan 27 15:51:55 Zw3KtpGP dockerd[779]: time="2024-01-27T15:51:55.407645087Z" level=info msg="Daemon shutdown complete"
+Jan 27 15:51:55 Zw3KtpGP systemd[1]: Stopping Docker Application Container Engine...
+Jan 27 15:51:55 Zw3KtpGP systemd[1]: docker.service: Deactivated successfully.
+Jan 27 15:51:55 Zw3KtpGP systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Boot 78e29de9b96e4cf2bbedc2c1a5c2a8ba --[0m
+Jan 27 15:52:50 Zw3KtpGP systemd[1]: Starting Docker Application Container Engine...
+Jan 27 15:52:53 Zw3KtpGP dockerd[783]: time="2024-01-27T15:52:53.003192258Z" level=info msg="Starting up"
+Jan 27 15:52:53 Zw3KtpGP dockerd[783]: time="2024-01-27T15:52:53.054917370Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Jan 27 15:52:53 Zw3KtpGP dockerd[783]: time="2024-01-27T15:52:53.901697040Z" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Jan 27 15:52:53 Zw3KtpGP dockerd[783]: time="2024-01-27T15:52:53.961896889Z" level=info msg="Loading containers: start."
+Jan 27 15:52:55 Zw3KtpGP dockerd[783]: time="2024-01-27T15:52:55.261834104Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Jan 27 15:52:55 Zw3KtpGP dockerd[783]: time="2024-01-27T15:52:55.526773297Z" level=info msg="Loading containers: done."
+Jan 27 15:52:55 Zw3KtpGP dockerd[783]: time="2024-01-27T15:52:55.700533907Z" level=info msg="Docker daemon" commit=615dfdf containerd-snapshotter=false storage-driver=overlay2 version=25.0.0
+Jan 27 15:52:55 Zw3KtpGP dockerd[783]: time="2024-01-27T15:52:55.701397308Z" level=info msg="Daemon has completed initialization"
+Jan 27 15:52:55 Zw3KtpGP dockerd[783]: time="2024-01-27T15:52:55.911194651Z" level=info msg="API listen on /run/docker.sock"
+Jan 27 15:52:55 Zw3KtpGP systemd[1]: Started Docker Application Container Engine.
+Jan 27 16:10:04 Zw3KtpGP systemd[1]: Stopping Docker Application Container Engine...
+Jan 27 16:10:04 Zw3KtpGP dockerd[783]: time="2024-01-27T16:10:04.159681489Z" level=info msg="Processing signal 'terminated'"
+Jan 27 16:10:04 Zw3KtpGP dockerd[783]: time="2024-01-27T16:10:04.346746680Z" level=info msg="stopping event stream following graceful shutdown" error="<nil>" module=libcontainerd namespace=moby
+Jan 27 16:10:04 Zw3KtpGP dockerd[783]: time="2024-01-27T16:10:04.395914320Z" level=info msg="Daemon shutdown complete"
+Jan 27 16:10:04 Zw3KtpGP systemd[1]: docker.service: Deactivated successfully.
+Jan 27 16:10:04 Zw3KtpGP systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Boot 74097cd8b1b844a6a5d8e53775ab5cb8 --[0m
+Jan 27 16:11:00 Zw3KtpGP systemd[1]: Starting Docker Application Container Engine...
+Jan 27 16:11:03 Zw3KtpGP dockerd[782]: time="2024-01-27T16:11:03.482292760Z" level=info msg="Starting up"
+Jan 27 16:11:03 Zw3KtpGP dockerd[782]: time="2024-01-27T16:11:03.495552173Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Jan 27 16:11:04 Zw3KtpGP dockerd[782]: time="2024-01-27T16:11:04.168886064Z" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Jan 27 16:11:04 Zw3KtpGP dockerd[782]: time="2024-01-27T16:11:04.271914538Z" level=info msg="Loading containers: start."
+Jan 27 16:11:05 Zw3KtpGP dockerd[782]: time="2024-01-27T16:11:05.586306247Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Jan 27 16:11:05 Zw3KtpGP dockerd[782]: time="2024-01-27T16:11:05.759464270Z" level=info msg="Loading containers: done."
+Jan 27 16:11:05 Zw3KtpGP dockerd[782]: time="2024-01-27T16:11:05.881314966Z" level=info msg="Docker daemon" commit=615dfdf containerd-snapshotter=false storage-driver=overlay2 version=25.0.0
+Jan 27 16:11:05 Zw3KtpGP dockerd[782]: time="2024-01-27T16:11:05.882097092Z" level=info msg="Daemon has completed initialization"
+Jan 27 16:11:06 Zw3KtpGP dockerd[782]: time="2024-01-27T16:11:06.012198440Z" level=info msg="API listen on /run/docker.sock"
+Jan 27 16:11:06 Zw3KtpGP systemd[1]: Started Docker Application Container Engine.
+Jan 27 16:16:08 Zw3KtpGP systemd[1]: Stopping Docker Application Container Engine...
+Jan 27 16:16:08 Zw3KtpGP dockerd[782]: time="2024-01-27T16:16:08.524117311Z" level=info msg="Processing signal 'terminated'"
+Jan 27 16:16:08 Zw3KtpGP dockerd[782]: time="2024-01-27T16:16:08.536165030Z" level=info msg="Daemon shutdown complete"
+Jan 27 16:16:08 Zw3KtpGP systemd[1]: docker.service: Deactivated successfully.
+Jan 27 16:16:08 Zw3KtpGP systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Boot adf3f529cbd1491e9b723470bfd6a631 --[0m
+Jan 27 16:17:03 Zw3KtpGP systemd[1]: Starting Docker Application Container Engine...
+Jan 27 16:17:05 Zw3KtpGP dockerd[780]: time="2024-01-27T16:17:05.567918104Z" level=info msg="Starting up"
+Jan 27 16:17:05 Zw3KtpGP dockerd[780]: time="2024-01-27T16:17:05.613542510Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Jan 27 16:17:06 Zw3KtpGP dockerd[780]: time="2024-01-27T16:17:06.470413080Z" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Jan 27 16:17:06 Zw3KtpGP dockerd[780]: time="2024-01-27T16:17:06.525006954Z" level=info msg="Loading containers: start."
+Jan 27 16:17:07 Zw3KtpGP dockerd[780]: time="2024-01-27T16:17:07.931557066Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Jan 27 16:17:08 Zw3KtpGP dockerd[780]: time="2024-01-27T16:17:08.142036812Z" level=info msg="Loading containers: done."
+Jan 27 16:17:08 Zw3KtpGP dockerd[780]: time="2024-01-27T16:17:08.259119854Z" level=info msg="Docker daemon" commit=615dfdf containerd-snapshotter=false storage-driver=overlay2 version=25.0.0
+Jan 27 16:17:08 Zw3KtpGP dockerd[780]: time="2024-01-27T16:17:08.263635918Z" level=info msg="Daemon has completed initialization"
+Jan 27 16:17:08 Zw3KtpGP dockerd[780]: time="2024-01-27T16:17:08.418437827Z" level=info msg="API listen on /run/docker.sock"
+Jan 27 16:17:08 Zw3KtpGP systemd[1]: Started Docker Application Container Engine.
+Jan 27 22:47:48 Zw3KtpGP dockerd[780]: time="2024-01-27T22:47:48.372431336Z" level=info msg="Processing signal 'terminated'"
+Jan 27 22:47:48 Zw3KtpGP systemd[1]: Stopping Docker Application Container Engine...
+Jan 27 22:47:48 Zw3KtpGP dockerd[780]: time="2024-01-27T22:47:48.388459959Z" level=info msg="Daemon shutdown complete"
+Jan 27 22:47:48 Zw3KtpGP systemd[1]: docker.service: Deactivated successfully.
+Jan 27 22:47:48 Zw3KtpGP systemd[1]: Stopped Docker Application Container Engine.
+Jan 27 22:47:48 Zw3KtpGP systemd[1]: docker.service: Consumed 6.197s CPU time.
+[0;1;39m-- Boot 4e7b2dbe48e34431b0564fb3b7f0e55d --[0m
+Jan 27 22:48:46 Zw3KtpGP systemd[1]: Starting Docker Application Container Engine...
+Jan 27 22:48:49 Zw3KtpGP dockerd[782]: time="2024-01-27T22:48:49.535561726Z" level=info msg="Starting up"
+Jan 27 22:48:49 Zw3KtpGP dockerd[782]: time="2024-01-27T22:48:49.543896935Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Jan 27 22:48:50 Zw3KtpGP dockerd[782]: time="2024-01-27T22:48:50.434891361Z" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Jan 27 22:48:50 Zw3KtpGP dockerd[782]: time="2024-01-27T22:48:50.443215803Z" level=info msg="Loading containers: start."
+Jan 27 22:48:51 Zw3KtpGP dockerd[782]: time="2024-01-27T22:48:51.490982451Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Jan 27 22:48:51 Zw3KtpGP dockerd[782]: time="2024-01-27T22:48:51.745082310Z" level=info msg="Loading containers: done."
+Jan 27 22:48:51 Zw3KtpGP dockerd[782]: time="2024-01-27T22:48:51.876232141Z" level=info msg="Docker daemon" commit=615dfdf containerd-snapshotter=false storage-driver=overlay2 version=25.0.0
+Jan 27 22:48:51 Zw3KtpGP dockerd[782]: time="2024-01-27T22:48:51.883809222Z" level=info msg="Daemon has completed initialization"
+Jan 27 22:48:52 Zw3KtpGP dockerd[782]: time="2024-01-27T22:48:52.137932008Z" level=info msg="API listen on /run/docker.sock"
+Jan 27 22:48:52 Zw3KtpGP systemd[1]: Started Docker Application Container Engine.
+Jan 27 22:57:48 Zw3KtpGP systemd[1]: Stopping Docker Application Container Engine...
+Jan 27 22:57:48 Zw3KtpGP dockerd[782]: time="2024-01-27T22:57:48.518646468Z" level=info msg="Processing signal 'terminated'"
+Jan 27 22:57:48 Zw3KtpGP dockerd[782]: time="2024-01-27T22:57:48.679464739Z" level=info msg="stopping event stream following graceful shutdown" error="<nil>" module=libcontainerd namespace=moby
+Jan 27 22:57:48 Zw3KtpGP dockerd[782]: time="2024-01-27T22:57:48.740638092Z" level=info msg="Daemon shutdown complete"
+Jan 27 22:57:48 Zw3KtpGP systemd[1]: docker.service: Deactivated successfully.
+Jan 27 22:57:48 Zw3KtpGP systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Boot f51d3d63779e4b338ff1224978a89d2d --[0m
+Jan 27 22:58:42 Zw3KtpGP systemd[1]: Starting Docker Application Container Engine...
+Jan 27 22:58:45 Zw3KtpGP dockerd[779]: time="2024-01-27T22:58:45.204630319Z" level=info msg="Starting up"
+Jan 27 22:58:45 Zw3KtpGP dockerd[779]: time="2024-01-27T22:58:45.226322211Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Jan 27 22:58:46 Zw3KtpGP dockerd[779]: time="2024-01-27T22:58:46.053736726Z" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Jan 27 22:58:46 Zw3KtpGP dockerd[779]: time="2024-01-27T22:58:46.164661020Z" level=info msg="Loading containers: start."
+Jan 27 22:58:47 Zw3KtpGP dockerd[779]: time="2024-01-27T22:58:47.180593298Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Jan 27 22:58:47 Zw3KtpGP dockerd[779]: time="2024-01-27T22:58:47.404446287Z" level=info msg="Loading containers: done."
+Jan 27 22:58:47 Zw3KtpGP dockerd[779]: time="2024-01-27T22:58:47.584146145Z" level=info msg="Docker daemon" commit=615dfdf containerd-snapshotter=false storage-driver=overlay2 version=25.0.0
+Jan 27 22:58:47 Zw3KtpGP dockerd[779]: time="2024-01-27T22:58:47.595906998Z" level=info msg="Daemon has completed initialization"
+Jan 27 22:58:47 Zw3KtpGP dockerd[779]: time="2024-01-27T22:58:47.779082542Z" level=info msg="API listen on /run/docker.sock"
+Jan 27 22:58:47 Zw3KtpGP systemd[1]: Started Docker Application Container Engine.
+Jan 27 23:02:21 Zw3KtpGP systemd[1]: Stopping Docker Application Container Engine...
+Jan 27 23:02:21 Zw3KtpGP dockerd[779]: time="2024-01-27T23:02:21.348810579Z" level=info msg="Processing signal 'terminated'"
+Jan 27 23:02:21 Zw3KtpGP dockerd[779]: time="2024-01-27T23:02:21.769846122Z" level=info msg="stopping event stream following graceful shutdown" error="<nil>" module=libcontainerd namespace=moby
+Jan 27 23:02:21 Zw3KtpGP dockerd[779]: time="2024-01-27T23:02:21.816000857Z" level=info msg="Daemon shutdown complete"
+Jan 27 23:02:21 Zw3KtpGP systemd[1]: docker.service: Deactivated successfully.
+Jan 27 23:02:21 Zw3KtpGP systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Boot e2a551bfad514ead98381c489cc93415 --[0m
+Jan 27 23:03:16 Zw3KtpGP systemd[1]: Starting Docker Application Container Engine...
+Jan 27 23:03:18 Zw3KtpGP dockerd[780]: time="2024-01-27T23:03:18.917736157Z" level=info msg="Starting up"
+Jan 27 23:03:18 Zw3KtpGP dockerd[780]: time="2024-01-27T23:03:18.961052654Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Jan 27 23:03:19 Zw3KtpGP dockerd[780]: time="2024-01-27T23:03:19.736249485Z" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Jan 27 23:03:19 Zw3KtpGP dockerd[780]: time="2024-01-27T23:03:19.848242001Z" level=info msg="Loading containers: start."
+Jan 27 23:03:20 Zw3KtpGP dockerd[780]: time="2024-01-27T23:03:20.780725303Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Jan 27 23:03:20 Zw3KtpGP dockerd[780]: time="2024-01-27T23:03:20.962752771Z" level=info msg="Loading containers: done."
+Jan 27 23:03:21 Zw3KtpGP dockerd[780]: time="2024-01-27T23:03:21.059070190Z" level=info msg="Docker daemon" commit=615dfdf containerd-snapshotter=false storage-driver=overlay2 version=25.0.0
+Jan 27 23:03:21 Zw3KtpGP dockerd[780]: time="2024-01-27T23:03:21.066474298Z" level=info msg="Daemon has completed initialization"
+Jan 27 23:03:21 Zw3KtpGP dockerd[780]: time="2024-01-27T23:03:21.256704581Z" level=info msg="API listen on /run/docker.sock"
+Jan 27 23:03:21 Zw3KtpGP systemd[1]: Started Docker Application Container Engine.
+Jan 27 23:11:25 Zw3KtpGP dockerd[780]: time="2024-01-27T23:11:25.056699077Z" level=info msg="Processing signal 'terminated'"
+Jan 27 23:11:25 Zw3KtpGP systemd[1]: Stopping Docker Application Container Engine...
+Jan 27 23:11:25 Zw3KtpGP dockerd[780]: time="2024-01-27T23:11:25.196330027Z" level=info msg="Daemon shutdown complete"
+Jan 27 23:11:25 Zw3KtpGP systemd[1]: docker.service: Deactivated successfully.
+Jan 27 23:11:25 Zw3KtpGP systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Boot 935499484d0b42b6842e415513e0fad0 --[0m
+Jan 27 23:12:19 Zw3KtpGP systemd[1]: Starting Docker Application Container Engine...
+Jan 27 23:12:22 Zw3KtpGP dockerd[777]: time="2024-01-27T23:12:22.045411721Z" level=info msg="Starting up"
+Jan 27 23:12:22 Zw3KtpGP dockerd[777]: time="2024-01-27T23:12:22.058861958Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Jan 27 23:12:22 Zw3KtpGP dockerd[777]: time="2024-01-27T23:12:22.888858545Z" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Jan 27 23:12:22 Zw3KtpGP dockerd[777]: time="2024-01-27T23:12:22.917503561Z" level=info msg="Loading containers: start."
+Jan 27 23:12:23 Zw3KtpGP dockerd[777]: time="2024-01-27T23:12:23.976999340Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Jan 27 23:12:24 Zw3KtpGP dockerd[777]: time="2024-01-27T23:12:24.205220485Z" level=info msg="Loading containers: done."
+Jan 27 23:12:24 Zw3KtpGP dockerd[777]: time="2024-01-27T23:12:24.331448637Z" level=info msg="Docker daemon" commit=615dfdf containerd-snapshotter=false storage-driver=overlay2 version=25.0.0
+Jan 27 23:12:24 Zw3KtpGP dockerd[777]: time="2024-01-27T23:12:24.342406230Z" level=info msg="Daemon has completed initialization"
+Jan 27 23:12:24 Zw3KtpGP dockerd[777]: time="2024-01-27T23:12:24.606412599Z" level=info msg="API listen on /run/docker.sock"
+Jan 27 23:12:24 Zw3KtpGP systemd[1]: Started Docker Application Container Engine.
+Jan 27 23:16:25 Zw3KtpGP systemd[1]: Stopping Docker Application Container Engine...
+Jan 27 23:16:25 Zw3KtpGP dockerd[777]: time="2024-01-27T23:16:25.544369958Z" level=info msg="Processing signal 'terminated'"
+Jan 27 23:16:25 Zw3KtpGP dockerd[777]: time="2024-01-27T23:16:25.808867344Z" level=info msg="Daemon shutdown complete"
+Jan 27 23:16:25 Zw3KtpGP systemd[1]: docker.service: Deactivated successfully.
+Jan 27 23:16:25 Zw3KtpGP systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Boot 26c73f43f37e4181b59f4eb89ea527c2 --[0m
+Jan 27 23:17:20 Zw3KtpGP systemd[1]: Starting Docker Application Container Engine...
+Jan 27 23:17:23 Zw3KtpGP dockerd[779]: time="2024-01-27T23:17:23.398809969Z" level=info msg="Starting up"
+Jan 27 23:17:23 Zw3KtpGP dockerd[779]: time="2024-01-27T23:17:23.403769202Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Jan 27 23:17:24 Zw3KtpGP dockerd[779]: time="2024-01-27T23:17:24.135067222Z" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Jan 27 23:17:24 Zw3KtpGP dockerd[779]: time="2024-01-27T23:17:24.212687525Z" level=info msg="Loading containers: start."
+Jan 27 23:17:25 Zw3KtpGP dockerd[779]: time="2024-01-27T23:17:25.235274180Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Jan 27 23:17:25 Zw3KtpGP dockerd[779]: time="2024-01-27T23:17:25.505512471Z" level=info msg="Loading containers: done."
+Jan 27 23:17:25 Zw3KtpGP dockerd[779]: time="2024-01-27T23:17:25.648562199Z" level=info msg="Docker daemon" commit=615dfdf containerd-snapshotter=false storage-driver=overlay2 version=25.0.0
+Jan 27 23:17:25 Zw3KtpGP dockerd[779]: time="2024-01-27T23:17:25.649374176Z" level=info msg="Daemon has completed initialization"
+Jan 27 23:17:25 Zw3KtpGP dockerd[779]: time="2024-01-27T23:17:25.834579816Z" level=info msg="API listen on /run/docker.sock"
+Jan 27 23:17:25 Zw3KtpGP systemd[1]: Started Docker Application Container Engine.
+Jan 27 23:23:10 Zw3KtpGP systemd[1]: Stopping Docker Application Container Engine...
+Jan 27 23:23:10 Zw3KtpGP dockerd[779]: time="2024-01-27T23:23:10.377443966Z" level=info msg="Processing signal 'terminated'"
+Jan 27 23:23:10 Zw3KtpGP dockerd[779]: time="2024-01-27T23:23:10.523589795Z" level=info msg="stopping event stream following graceful shutdown" error="<nil>" module=libcontainerd namespace=moby
+Jan 27 23:23:10 Zw3KtpGP dockerd[779]: time="2024-01-27T23:23:10.637602345Z" level=info msg="Daemon shutdown complete"
+Jan 27 23:23:10 Zw3KtpGP systemd[1]: docker.service: Deactivated successfully.
+Jan 27 23:23:10 Zw3KtpGP systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Boot ce8200372118490bb5140b88c9982a39 --[0m
+Jan 27 23:24:04 Zw3KtpGP systemd[1]: Starting Docker Application Container Engine...
+Jan 27 23:24:07 Zw3KtpGP dockerd[784]: time="2024-01-27T23:24:07.359209033Z" level=info msg="Starting up"
+Jan 27 23:24:07 Zw3KtpGP dockerd[784]: time="2024-01-27T23:24:07.370215085Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Jan 27 23:24:08 Zw3KtpGP dockerd[784]: time="2024-01-27T23:24:08.224348716Z" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Jan 27 23:24:08 Zw3KtpGP dockerd[784]: time="2024-01-27T23:24:08.285137697Z" level=info msg="Loading containers: start."
+Jan 27 23:24:09 Zw3KtpGP dockerd[784]: time="2024-01-27T23:24:09.318671813Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Jan 27 23:24:09 Zw3KtpGP dockerd[784]: time="2024-01-27T23:24:09.540184550Z" level=info msg="Loading containers: done."
+Jan 27 23:24:09 Zw3KtpGP dockerd[784]: time="2024-01-27T23:24:09.683116521Z" level=info msg="Docker daemon" commit=615dfdf containerd-snapshotter=false storage-driver=overlay2 version=25.0.0
+Jan 27 23:24:09 Zw3KtpGP dockerd[784]: time="2024-01-27T23:24:09.690561099Z" level=info msg="Daemon has completed initialization"
+Jan 27 23:24:09 Zw3KtpGP dockerd[784]: time="2024-01-27T23:24:09.900253434Z" level=info msg="API listen on /run/docker.sock"
+Jan 27 23:24:09 Zw3KtpGP systemd[1]: Started Docker Application Container Engine.
+Jan 27 23:31:29 Zw3KtpGP systemd[1]: Stopping Docker Application Container Engine...
+Jan 27 23:31:29 Zw3KtpGP dockerd[784]: time="2024-01-27T23:31:29.442103078Z" level=info msg="Processing signal 'terminated'"
+Jan 27 23:31:29 Zw3KtpGP dockerd[784]: time="2024-01-27T23:31:29.709429775Z" level=info msg="stopping event stream following graceful shutdown" error="<nil>" module=libcontainerd namespace=moby
+Jan 27 23:31:29 Zw3KtpGP dockerd[784]: time="2024-01-27T23:31:29.718655693Z" level=info msg="Daemon shutdown complete"
+Jan 27 23:31:29 Zw3KtpGP systemd[1]: docker.service: Deactivated successfully.
+Jan 27 23:31:29 Zw3KtpGP systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Boot ecca66e1ea1245fd8423787f9728a426 --[0m
+Jan 27 23:32:22 Zw3KtpGP systemd[1]: Starting Docker Application Container Engine...
+Jan 27 23:32:25 Zw3KtpGP dockerd[784]: time="2024-01-27T23:32:25.126574756Z" level=info msg="Starting up"
+Jan 27 23:32:25 Zw3KtpGP dockerd[784]: time="2024-01-27T23:32:25.143539724Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Jan 27 23:32:25 Zw3KtpGP dockerd[784]: time="2024-01-27T23:32:25.969611569Z" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Jan 27 23:32:26 Zw3KtpGP dockerd[784]: time="2024-01-27T23:32:26.089794218Z" level=info msg="Loading containers: start."
+Jan 27 23:32:27 Zw3KtpGP dockerd[784]: time="2024-01-27T23:32:27.712254093Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Jan 27 23:32:28 Zw3KtpGP dockerd[784]: time="2024-01-27T23:32:28.177478795Z" level=info msg="Loading containers: done."
+Jan 27 23:32:28 Zw3KtpGP dockerd[784]: time="2024-01-27T23:32:28.376363822Z" level=info msg="Docker daemon" commit=615dfdf containerd-snapshotter=false storage-driver=overlay2 version=25.0.0
+Jan 27 23:32:28 Zw3KtpGP dockerd[784]: time="2024-01-27T23:32:28.391789496Z" level=info msg="Daemon has completed initialization"
+Jan 27 23:32:28 Zw3KtpGP dockerd[784]: time="2024-01-27T23:32:28.727648676Z" level=info msg="API listen on /run/docker.sock"
+Jan 27 23:32:28 Zw3KtpGP systemd[1]: Started Docker Application Container Engine.
+Jan 27 23:36:10 Zw3KtpGP dockerd[784]: time="2024-01-27T23:36:10.615579798Z" level=info msg="Processing signal 'terminated'"
+Jan 27 23:36:10 Zw3KtpGP systemd[1]: Stopping Docker Application Container Engine...
+Jan 27 23:36:10 Zw3KtpGP dockerd[784]: time="2024-01-27T23:36:10.620038167Z" level=info msg="Daemon shutdown complete"
+Jan 27 23:36:10 Zw3KtpGP systemd[1]: docker.service: Deactivated successfully.
+Jan 27 23:36:10 Zw3KtpGP systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Boot c697126e42344eac99cb508c041db4a6 --[0m
+Jan 27 23:37:04 Zw3KtpGP systemd[1]: Starting Docker Application Container Engine...
+Jan 27 23:37:07 Zw3KtpGP dockerd[783]: time="2024-01-27T23:37:07.258498594Z" level=info msg="Starting up"
+Jan 27 23:37:07 Zw3KtpGP dockerd[783]: time="2024-01-27T23:37:07.264300944Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Jan 27 23:37:08 Zw3KtpGP dockerd[783]: time="2024-01-27T23:37:08.088585149Z" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Jan 27 23:37:08 Zw3KtpGP dockerd[783]: time="2024-01-27T23:37:08.169482042Z" level=info msg="Loading containers: start."
+Jan 27 23:37:09 Zw3KtpGP dockerd[783]: time="2024-01-27T23:37:09.116991575Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Jan 27 23:37:09 Zw3KtpGP dockerd[783]: time="2024-01-27T23:37:09.352512256Z" level=info msg="Loading containers: done."
+Jan 27 23:37:09 Zw3KtpGP dockerd[783]: time="2024-01-27T23:37:09.445159758Z" level=info msg="Docker daemon" commit=615dfdf containerd-snapshotter=false storage-driver=overlay2 version=25.0.0
+Jan 27 23:37:09 Zw3KtpGP dockerd[783]: time="2024-01-27T23:37:09.450036740Z" level=info msg="Daemon has completed initialization"
+Jan 27 23:37:09 Zw3KtpGP dockerd[783]: time="2024-01-27T23:37:09.680372037Z" level=info msg="API listen on /run/docker.sock"
+Jan 27 23:37:09 Zw3KtpGP systemd[1]: Started Docker Application Container Engine.
+Jan 27 23:40:22 Zw3KtpGP dockerd[783]: time="2024-01-27T23:40:22.210537007Z" level=info msg="Processing signal 'terminated'"
+Jan 27 23:40:22 Zw3KtpGP systemd[1]: Stopping Docker Application Container Engine...
+Jan 27 23:40:22 Zw3KtpGP dockerd[783]: time="2024-01-27T23:40:22.216852996Z" level=info msg="Daemon shutdown complete"
+Jan 27 23:40:22 Zw3KtpGP systemd[1]: docker.service: Deactivated successfully.
+Jan 27 23:40:22 Zw3KtpGP systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Boot be3327d5c4ce48d6a4926a7a53451662 --[0m
+Jan 27 23:41:16 Zw3KtpGP systemd[1]: Starting Docker Application Container Engine...
+Jan 27 23:41:18 Zw3KtpGP dockerd[780]: time="2024-01-27T23:41:18.691355098Z" level=info msg="Starting up"
+Jan 27 23:41:18 Zw3KtpGP dockerd[780]: time="2024-01-27T23:41:18.728323523Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Jan 27 23:41:19 Zw3KtpGP dockerd[780]: time="2024-01-27T23:41:19.779202460Z" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Jan 27 23:41:19 Zw3KtpGP dockerd[780]: time="2024-01-27T23:41:19.902613071Z" level=info msg="Loading containers: start."
+Jan 27 23:41:20 Zw3KtpGP dockerd[780]: time="2024-01-27T23:41:20.961692752Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Jan 27 23:41:21 Zw3KtpGP dockerd[780]: time="2024-01-27T23:41:21.147517594Z" level=info msg="Loading containers: done."
+Jan 27 23:41:21 Zw3KtpGP dockerd[780]: time="2024-01-27T23:41:21.251051554Z" level=info msg="Docker daemon" commit=615dfdf containerd-snapshotter=false storage-driver=overlay2 version=25.0.0
+Jan 27 23:41:21 Zw3KtpGP dockerd[780]: time="2024-01-27T23:41:21.251663793Z" level=info msg="Daemon has completed initialization"
+Jan 27 23:41:21 Zw3KtpGP dockerd[780]: time="2024-01-27T23:41:21.443108672Z" level=info msg="API listen on /run/docker.sock"
+Jan 27 23:41:21 Zw3KtpGP systemd[1]: Started Docker Application Container Engine.
+Jan 27 23:45:22 Zw3KtpGP systemd[1]: Stopping Docker Application Container Engine...
+Jan 27 23:45:22 Zw3KtpGP dockerd[780]: time="2024-01-27T23:45:22.661913783Z" level=info msg="Processing signal 'terminated'"
+Jan 27 23:45:22 Zw3KtpGP dockerd[780]: time="2024-01-27T23:45:22.666795924Z" level=info msg="Daemon shutdown complete"
+Jan 27 23:45:22 Zw3KtpGP systemd[1]: docker.service: Deactivated successfully.
+Jan 27 23:45:22 Zw3KtpGP systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Boot ad1e0844469847b7a32af9b75e7b5961 --[0m
+Jan 27 23:46:18 Zw3KtpGP systemd[1]: Starting Docker Application Container Engine...
+Jan 27 23:46:20 Zw3KtpGP dockerd[782]: time="2024-01-27T23:46:20.635096822Z" level=info msg="Starting up"
+Jan 27 23:46:20 Zw3KtpGP dockerd[782]: time="2024-01-27T23:46:20.645546829Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Jan 27 23:46:21 Zw3KtpGP dockerd[782]: time="2024-01-27T23:46:21.710241929Z" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Jan 27 23:46:21 Zw3KtpGP dockerd[782]: time="2024-01-27T23:46:21.749230187Z" level=info msg="Loading containers: start."
+Jan 27 23:46:22 Zw3KtpGP dockerd[782]: time="2024-01-27T23:46:22.900029298Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Jan 27 23:46:23 Zw3KtpGP dockerd[782]: time="2024-01-27T23:46:23.130727760Z" level=info msg="Loading containers: done."
+Jan 27 23:46:23 Zw3KtpGP dockerd[782]: time="2024-01-27T23:46:23.243052795Z" level=info msg="Docker daemon" commit=615dfdf containerd-snapshotter=false storage-driver=overlay2 version=25.0.0
+Jan 27 23:46:23 Zw3KtpGP dockerd[782]: time="2024-01-27T23:46:23.247619631Z" level=info msg="Daemon 
