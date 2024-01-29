@@ -12,7 +12,8 @@ import lombok.RequiredArgsConstructor;
 @RestController
 @RequestMapping("/api/v1/resource")
 @RequiredArgsConstructor
-@CrossOrigin(origins = {"http://localhost:4200", "http://102.211.210.49:4200","http://www.flydelivery.com.tn:4200","http://www.flydelivery.com.tn"}, allowedHeaders = "*")
+@CrossOrigin(origins = {"http://localhost:4200", "http://102.211.210.49:4200","http://www.flydelivery.com.tn:4200","http://www.flydelivery.com.tn"
+        ,"https://www.flydelivery.com.tn:4200","https://www.flydelivery.com.tn"}, allowedHeaders = "*")
 public class AuthorizationController {
     @GetMapping
     public ResponseEntity<String> sayHello() {
