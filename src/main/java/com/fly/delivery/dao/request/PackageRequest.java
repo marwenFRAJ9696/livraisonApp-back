@@ -21,6 +21,7 @@ public class PackageRequest {
     private String city;
     private String fullAddress;
     private String telNumber;
+    private String telNumber2;
     private String designation;
     private long articleNumber;
     private long packageNumber;
@@ -31,4 +32,10 @@ public class PackageRequest {
     private String comment;
     private String emailUser;
     private String status;
+    private String isEchange;
+    private String isFragile;
+    private String isPetit;
+    private String isGrand;
+    private String isExtraLarge;
+    private String isMoyen;
 }

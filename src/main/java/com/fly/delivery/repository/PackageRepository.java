@@ -10,4 +10,5 @@ import java.util.Optional;
 @Repository
 public interface PackageRepository extends JpaRepository<Package, Integer> {
     // Since email is unique, we'll find users by email
+    Optional<Package> findTopByOrderByIdDesc();
 }

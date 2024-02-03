@@ -14,10 +14,12 @@ import java.util.Date;
 public class PackageResponse {
     private Integer id;
     private String fullName;
+    private String factureNumber;
     private String governorate;
     private String city;
     private String fullAddress;
     private Long telNumber;
+    private Long telNumber2;
     private String designation;
     private long articleNumber;
     private long packageNumber;

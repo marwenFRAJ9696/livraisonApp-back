@@ -25,11 +25,13 @@ public class Package {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
+    private String factureNumber;
     private String fullName;
     private String governorate;
     private String city;
     private String fullAddress;
     private String telNumber;
+    private String telNumber2;
     private String designation;
     private long articleNumber;
     private long packageNumber;
@@ -40,6 +42,12 @@ public class Package {
     private String comment;
     private Status status;
     private Date createdDate;
+    private boolean isEchange;
+    private boolean isFragile;
+    private boolean isPetit;
+    private boolean isGrand;
+    private boolean isExtraLarge;
+    private boolean isMoyen;
     @ManyToOne
     private User user;
 
