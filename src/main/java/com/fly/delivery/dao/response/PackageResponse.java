@@ -32,9 +32,38 @@ public class PackageResponse {
     private String status;
     private Date createdDate;
     private String emailUser;
+    private boolean isEchange;
+    private boolean isFragile;
+    private boolean isPetit;
+    private boolean isGrand;
+    private boolean isExtraLarge;
+    private boolean isMoyen;
     public void isPackageCanBeOpen(boolean packageCanBeOpen) {
         this.isPackageCanBeOpen = packageCanBeOpen;
     }
 
 
+    public void isEchange(boolean echange) {
+        this.isEchange = echange;
+    }
+
+    public void isFragile(boolean fragile) {
+        this.isFragile = fragile;
+    }
+
+    public void isMoyen(boolean moyen) {
+        this.isMoyen = moyen;
+    }
+
+    public void isPetit(boolean petit) {
+        this.isPetit = petit;
+    }
+
+    public void isGrand(boolean grand) {
+        this.isGrand = grand;
+    }
+
+    public void isExtraLarge(boolean extraLarge) {
+        this.isExtraLarge = extraLarge;
+    }
 }

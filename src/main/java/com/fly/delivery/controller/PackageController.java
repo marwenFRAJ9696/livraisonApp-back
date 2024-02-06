@@ -26,6 +26,14 @@ public class PackageController {
     private PackageService packageService;
     @Autowired
     private AdminService adminService;
+    @GetMapping({"package/{id}"})
+    public ResponseEntity<PackageResponse> getPakcageById(@PathVariable Integer id) {
+        return ResponseEntity.ok(packageService.getPackageById(id));
+    }
+    @PutMapping({"package/{id}"})
+    public ResponseEntity<PackageResponse> updatePakcageById(@PathVariable Integer id,@RequestBody PackageRequest packageRequest) {
+        return ResponseEntity.ok(packageService.updatePackageById(id,packageRequest));
+    }
     @GetMapping({"{email}"})
     public ResponseEntity<Collection<PackageResponse>> getPackageByClient(@PathVariable String email) {
         return ResponseEntity.ok(packageService.getPackageByClient(email));

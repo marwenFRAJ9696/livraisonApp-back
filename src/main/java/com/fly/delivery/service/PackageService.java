@@ -16,4 +16,8 @@ public interface PackageService {
    StatusResponse changeStatus(Integer id,String status);
 
    Collection<PackageResponse> getAllPackageByCreatedDate();
+
+   PackageResponse getPackageById(Integer id);
+
+   PackageResponse updatePackageById(Integer id, PackageRequest packageRequest);
 }
