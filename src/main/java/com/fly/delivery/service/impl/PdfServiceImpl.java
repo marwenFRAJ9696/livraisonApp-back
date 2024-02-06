@@ -58,8 +58,7 @@ public class PdfServiceImpl implements PdfService {
 //        extractedPhrase("M/F: ","1825398/F - Code Agence: 01",Element.ALIGN_LEFT, document);
             document.add(new Paragraph("\n"));
             extractedPhraseToLeft("Nom de destinataire: ", p.getFullName() != null ? p.getFullName() : "", 200, document);
-            extractedPhraseToLeft("Adresse: ", p.getGovernorate() == null || p.getCity() == null || p.getFullAddress() == null ? "" :
-                    p.getGovernorate() + ", " + p.getCity() + ", " + p.getFullAddress(), 200, document);
+            extractedPhraseToLeft("Adresse: ", p.getFullAddress(), 200, document);
             extractedPhraseToLeft("Téléphone: ", p.getTelNumber() != null ? p.getTelNumber() : "", 200, document);
             if(p.getTelNumber2() != null){
                 extractedPhraseToLeft("Téléphone 2: ", p.getTelNumber2() != null ? p.getTelNumber2() : "", 200, document);
@@ -69,6 +68,7 @@ public class PdfServiceImpl implements PdfService {
 
             extractedPhrase("Date BLF: ",p.getCreatedDate() != null ? p.getCreatedDate().toString() : "", Element.ALIGN_LEFT, document);
             extractedPhrase("Destination: ", p.getGovernorate() != null ?p.getGovernorate():"", Element.ALIGN_LEFT, document);
+            extractedPhrase("Ville: ", p.getCity() != null ?p.getCity():"", Element.ALIGN_LEFT, document);
             if(p.isPetit()){
                 extractedPhrase("Taille du Paquet: ", "Petit", Element.ALIGN_LEFT, document);
             }else if( p.isGrand()){

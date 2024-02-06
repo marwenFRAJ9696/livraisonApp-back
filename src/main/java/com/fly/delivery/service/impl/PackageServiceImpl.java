@@ -119,8 +119,8 @@ public class PackageServiceImpl implements PackageService {
             packageResponse.setGovernorate(p.getGovernorate());
             packageResponse.setPriceNet(p.getPriceNet());
             packageResponse.setPriceDelivery(p.getUser().getPriceOfDelivery());
-            packageResponse.setTelNumber(Long.valueOf(p.getTelNumber()));
-            packageResponse.setTelNumber2(p.getTelNumber2() != null ? Long.valueOf(p.getTelNumber()) : null);
+            packageResponse.setTelNumber(p.getTelNumber());
+            packageResponse.setTelNumber2(p.getTelNumber2() != null ? p.getTelNumber() : null);
             packageResponse.setStatus(p.getStatus()!= null ? p.getStatus().name() : null);
             packageResponse.setId(p.getId());
             packageResponse.setCreatedDate(p.getCreatedDate());

@@ -18,8 +18,8 @@ public class PackageResponse {
     private String governorate;
     private String city;
     private String fullAddress;
-    private Long telNumber;
-    private Long telNumber2;
+    private String telNumber;
+    private String telNumber2;
     private String designation;
     private long articleNumber;
     private long packageNumber;
